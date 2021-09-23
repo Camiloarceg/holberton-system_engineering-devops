@@ -66,8 +66,6 @@ It's a script that creates a directory called my_dir with permissions 751 in the
 
 It's a script that changes the group owner to school for the file hello
 
-<!---
-
 ## 100-change_owner_and_group
 
 It's a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
@@ -83,5 +81,3 @@ It's a script that changes the owner of the file hello to vincent only if it is 
 ## 103-Star_Wars
 
 It's a script that will play the StarWars IV episode in the terminal.a script that will play the StarWars IV episode in the terminal.
-
--->
