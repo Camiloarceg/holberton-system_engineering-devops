@@ -1,0 +1,8 @@
+#!/bin/bash
+hello_owner= stat -c '%U' hello 
+if["$hello_owner" -eq guillaume];then
+  chown vincent hello
+  else
+      
+fi
+ 
