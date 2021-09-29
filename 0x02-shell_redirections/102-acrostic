@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $( cut -c -1|tr "\n" "\a") 
+echo $( cut -c -1|tr --delete "\n") 
