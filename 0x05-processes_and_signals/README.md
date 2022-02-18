@@ -1,0 +1,1 @@
+## Learning about process an signals in bash ##
