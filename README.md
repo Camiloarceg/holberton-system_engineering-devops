@@ -35,3 +35,7 @@ This preoject is about shell I/O Redirections, what is for, commads associated w
 ## 0x06-regular_expressions ##
 
 - learn about regexp.
+
+## 0x07-networking_basics ##
+
+Learn about OSI model, LAN, WAN, Internet, TCP/UDP
