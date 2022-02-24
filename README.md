@@ -31,3 +31,7 @@ This preoject is about shell I/O Redirections, what is for, commads associated w
 - How to kill a process
 - What is a signal
 - What are the 2 signals that cannot be ignored
+
+## 0x06-regular_expressions ##
+
+- learn about regexp.
