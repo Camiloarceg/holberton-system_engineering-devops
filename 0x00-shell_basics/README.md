@@ -100,3 +100,4 @@ rmdir /tmp/my_first_directory
 0 string SCHOOL School data
 !:mime School
 ```
+ola k ase
