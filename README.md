@@ -39,3 +39,16 @@ This preoject is about shell I/O Redirections, what is for, commads associated w
 ## 0x07-networking_basics ##
 
 Learn about OSI model, LAN, WAN, Internet, TCP/UDP
+
+## 0x0A-configuration_management
+
+learning puppet basics!
+
+## 0x0B-ssh
+
+- What is a server
+- Where servers usually live
+- What is SSH
+- How to create an SSH RSA key pair
+- How to connect to a remote host using an SSH RSA key pair
+- The advantage of using #!/usr/bin/env bash instead of /bin/bash
