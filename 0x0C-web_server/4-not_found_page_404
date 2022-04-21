@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Bash script containing commands to automatically configure a Ubuntu machine to respect above requirements
+sudo apt update
+sudo apt -y install nginx
+echo 'Hello World' > index.html
+echo "Ceci n'est pas une page" > error404.html
+sudo mv index.html /var/www/html/
+sudo mv error404.html /var/www/html/
+sudo sed -i "/listen 80 default_server/a rewrite ^/redirect_me https://www.youtube.com/watch?v=dQw4w9WgXcQ permanent;" /etc/nginx/sites-available/default
+sudo sed -i '/listen 80 default_server;/a error_page 404 /error404.html;' /etc/nginx/sites-available/default
+sudo service nginx restart
