@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Bash script containing commands to automatically configure a Ubuntu machine to respect above requirements
-sudo apt update
+sudo apt -y update
 sudo apt -y install nginx
 sudo ufw allow 'Nginx HTTP'
 echo 'Hello World' > index.html
