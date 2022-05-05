@@ -1,8 +1,8 @@
 exec{ 'fix-nginx':
-  path    => '/bin',
-  command => "sed -i 's/15/4096/g' /etc/default/nginx"
+  path    => [ '/usr/bin' , '/bin', '/usr/sbin', '/sbin' ],
+  command => "sed -i 's/15/4100/g' /etc/default/nginx"
 }
 exec{'restart-nginx':
-  path    => '/etc/init.d',
-  command => 'nginx restart'
+  path    => '/usr/bin',
+  command => 'sudo service nginx restart'
 }
