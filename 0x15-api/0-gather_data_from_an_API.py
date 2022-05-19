@@ -18,4 +18,4 @@ if __name__ == "__main__":
 {len(NUMBER_OF_DONE_TASKS)}/{TOTAL_NUMBER_OF_TASKS}):")
     for task in NUMBER_OF_DONE_TASKS:
         TASK_TITLE = task["title"]
-        print(f"\t{TASK_TITLE}")
+        print(f"\t {TASK_TITLE}")
