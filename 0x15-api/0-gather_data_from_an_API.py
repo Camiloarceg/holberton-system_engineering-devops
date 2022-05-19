@@ -1,12 +1,13 @@
 #!/usr/bin/python3
-""" using this REST API, for a given employee ID,
-    returns information about his/her todo list progress
+"""using this REST API, for a given employee ID,
+   returns information about his/her todo list progress
 """
-if __name__ == "__main__":
-    import json
-    import requests
-    from sys import argv
+import json
+import requests
+from sys import argv
 
+
+if __name__ == "__main__":
     url = "https://jsonplaceholder.typicode.com"
     EMPLOYEE_NAME = requests.get(f"{url}/users/{argv[1]}").json()["name"]
     NUMBER_OF_DONE_TASKS = requests.get(
