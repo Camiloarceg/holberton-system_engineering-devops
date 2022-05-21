@@ -8,8 +8,8 @@ def recurse(subreddit, hot_list=[], after=""):
     url = "https://api.reddit.com/r/{}/hot?after={}".format(subreddit, after)
     headers = {"User-Agent": "Python3"}
     try:
-        response = request.get(url, headers=headers,
-                               allow_redirects=False).json().get('data')
+        response = requests.get(url, headers=headers,
+                                allow_redirects=False).json().get('data')
         after = response.get('after', None)
         for item in response.get('children'):
             hot_list.append(item.get('data').get('title'))
