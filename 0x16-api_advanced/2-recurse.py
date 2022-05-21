@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """ Return list containing the titles of all hot articles """
-from requests import request
-
+import requests
 
 def recurse(subreddit, hot_list=[], after=""):
     """ Query Reddit API to return all got articles """
